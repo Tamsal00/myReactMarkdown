@@ -1,0 +1,48 @@
+#preview {
+   width: 100%;
+   min-height: 340px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: aquamarine;
+   -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.46);
+   box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.46);
+
+ }
+ 
+ #pLabel {
+   background-color: rgba(62, 191, 172, 0.962);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 40px;
+   border: 1px solid black;
+   box-sizing: border-box;
+   padding: 0 15px;
+   flex-grow: 1;
+ }
+ 
+ img {
+   width: 20px;
+   height: 20px;
+ }
+ 
+ h2 {
+   font-size: large;
+ }
+ 
+ #divP {
+   height: calc(100% - 40px);
+   padding: 20px;
+   width: 90%;
+   resize: vertical;
+   background-color: aquamarine;
+   overflow: auto;
+ }
+ 
+ .expanded {
+   
+   width: 100%;
+   position: absolute;
+   top: 0;
+ }
+ 
